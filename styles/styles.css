@@ -7,20 +7,30 @@ body {
 }
 
 main {
-    padding: 30px;
+    padding: 50px;
     display: grid;
     grid-template-columns: min-content;
     justify-content: center;
     text-align: center;
+    background-color: #000327;
 }
 
 header {
-    background-color: #A2D7D2;
+    background-color: #00064F;
     height: 110px;
     padding: 0 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 0 20px 30px #acd8f8;
+    z-index: 1;
+}
+
+h1 {
+    color: #D9DCFF;
+    font-size: 60px;
+    text-shadow: 0 0 10px #92D1FF;
+    font-weight: bold;
 }
 
 header img {
@@ -28,9 +38,10 @@ header img {
     object-fit: contain;
 }
 
-h1 {
-    font-size: 1.5rem;
-    font-weight: bold;
+#output {
+    color: #D9DCFF;
+    font-size: 32px;
+    text-shadow: 1px 1px 5px #92D1FF;
 }
 
 footer {
